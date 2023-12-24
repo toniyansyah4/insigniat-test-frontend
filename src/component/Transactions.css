@@ -1,0 +1,72 @@
+/* Transactions.css */
+
+.transactions {
+    padding: 20px;
+  }
+  
+  .transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .table-header, .table-row {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-cell {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .pages.pagination {
+    list-style: none;
+    display: flex;
+  }
+  
+  .pages.pagination li {
+    margin: 0 5px;
+  }
+  
+  .pages.pagination li a {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  .pages.pagination li a:hover {
+    background-color: #ddd; /* Add hover effect */
+  }
+  
+  .pages.pagination li a.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .logout-button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #f44336; /* Red */
+    color: #fff; /* White */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+  }
+  
+  .logout-button:hover {
+    background-color: #da190b; /* Darker red */
+    color: white;
+  }
